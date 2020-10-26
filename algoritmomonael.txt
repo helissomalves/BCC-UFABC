@@ -1,0 +1,170 @@
+Elaborar um algoritmo em pseudocodigo que efetue a leitura de um número inteiro e apresentar uma
+mensagem informando se o número é par ou ímpar.
+
+Algoritmo "Par ou Impar"
+var
+num1:inteiro
+Inicio
+escreval("insira um número inteiro: ")
+leia(num1)
+se(num1 mod 2 = 0)entao
+escreval("O número: ",num1," é par")
+senao
+escreval("O número: ",num1," é impar")
+fimse
+finalgoritmo
+
+Elabore um algoritmo para ler dois números e mostrar o maior.
+
+
+num1,num2: númerico
+Inicio
+Ler (num1)
+Ler (num2)
+Se (num1 > num2) Então
+Escrever (‘O primeiro número é o maior’)
+Senão se (num1 < num2) Então
+Escrever (‘O segundo número é o maior’)
+Senão
+Escrever (‘Os números são iguais’)
+Fim 
+
+Elabore um algoritmo para ler dois números e mostrar o menor.
+
+num1,num2: númerico
+Inicio
+Ler (num1)
+Ler (num2)
+Se (num1 < num2) Então
+Escrever (‘O primeiro número é o menor’)
+Senão se (num1 > num2) Então
+Escrever (‘O segundo número é o menor’)
+Senão
+Escrever (‘Os números são iguais’)
+Fim 
+
+Faça um algoritmo para ler os nomes e os pesos de duas pessoas e imprimir o nome do mais pesado.
+
+nome1, nome2: literal
+peso1, peso2: numérico
+
+Inicio
+Leia("Digite o primeiro nome: ")nome1
+Leia("Digite o peso da primeira pessoa: ")peso1
+Leia("Digite o segundo nome: ")nome2
+Leia("Digite o peso da primeira pessoa: ")peso2
+Se (peso1>peso2) então
+Escreva("A pesssoa", nome1," é a mais gorda com "peso1"quilos")
+fimse
+Se (peso1<peso2) então
+Escreva("A pesssoa", nome2," é a mais gorda com "peso2"quilos")
+fimse
+fim
+
+Construa um algoritmo para ler o ano atual e os nomes e os anos de nascimento de duas pessoas e calcular 
+suas idades e imprimir o nome e a idade de cada uma delas e dizer qual a mais nova.
+
+nome1, nome2: literal
+ano1, ano2, idade1, idade2: numérico
+
+Inicio
+Leia("Digite o primeiro nome: ")nome1
+Leia("Digite o ano de nascimento da primeira pessoa: ")ano1
+Leia("Digite o segundo nome: ")nome2
+Leia("Digite o ano de nascimento da segunda pessoa: ")ano2
+idade1 2020 - ano1
+idade2 2020 - ano2
+Escreva("Primeira pessoa: ")nome1
+Escreva("Ano de nascimento: ")ano1
+Escreva("Idade: ")idade1
+Escreva("Segunda pessoa: ")nome2
+Escreva("Ano de nascimento: ")ano2
+Escreva("Idade: ")idade2
+Se (idade1<idade2) então
+Escreva("A pessoa mais nova:",nome1)
+fimse
+Se (idade1>idade2) então
+Escreva("A pessoa mais nova:",nome2)
+fimse
+fim
+
+
+Elabore um algoritmo para ler dois números e mostrar o menor.
+
+inicio
+num1, num2, numMenor: númerico
+leia num1
+leia num2
+numMenor = num1
+se num2 < numMenor então
+   numMenor = num2
+   fim-se
+   escreva "O menor valor informado foi: " + numMenor
+fim
+
+Tela:
+5
+2
+0
+O menor valor informado foi: 2
+
+150
+500
+O menor valor informado foi: 150
+   
+
+Construa um algoritmo para ler o ano atual e os nomes e os anos de nascimento de duas pessoas e calcular suas idades e imprimir o nome e a idade de cada uma delas e dizer qual a mais nova.
+
+Entrada: Ano atual, nome e ano de nascimento da primeira pessoa, nome e ano de nascimento da segunda pessoa.
+Processamento: Calcular as idades da primeira e da segunda pessoa. Determinar quem é a pessoa mais nova.
+Saída: Nome e idade da primeira pessoa, nome e idade da segunda pessoa e informar o nome da pessoa pessoa mais nova.
+
+
+início
+ |  anoAtu, anoNasc1, anoNasc2, idade1, idade2, idadeMenor: numérico
+ |   nome1, nome2, nomeMenor: literal
+ |   escreva “Informe o ano atual: ”
+ |   leia anoAtu
+ |   escreva “Informe o nome da 1a. pessoa: ”
+ |   leia nome1
+ |   escreva “Informe o nome da 2a. pessoa: ”
+ |   leia nome2
+ |   escreva “Informe o ano de nascimento de ” + nome1 + “: ”
+ |   leia anoNasc1
+ |   escreva “Informe o ano de nascimento de ” + nome2 + “: ”
+ |   leia anoNasc2
+ |   idade1 = anoAtu - anoNasc1
+ |   idade2 = anoAtu - anoNasc2
+ |   idadeMenor = idade1
+ |   nomeMenor = nome1
+ |   se idade2 < idadeMenor então
+ |   |  idadeMenor = idade2
+ |   |  nomeMenor = nome2
+ |   fim-se
+ |   escreva nome1 + “ tem ” + idade1 + “ anos de idade.”
+ |   escreva nome2 + “ tem ” + idade2 + “ anos de idade.”
+ |   escreva nomeMenor + “ eh mais novo(a).”
+fim
+
+Tela:
+
+Informe o ano atual: 2020
+Informe o nome da 1a. pessoa: Silvio
+Informe o nome da 2a. pessoa: Rosa
+Informe o ano de nascimento de Silvio: 1985
+Informe o ano de nascimento de Rosa: 1980
+Silvio tem 35 anos de idade.
+Rosa tem 40 anos de idade.
+Silvio eh mais novo(a).
+
+Variaveis:
+
+anoAtu: 2020
+anoNasc1: 1985
+anoNasc2: 1980
+idade1: 35
+idade2: 40
+idadeMenor: 35
+nome1: Silvio
+nome2: Rosa
+nomeMenor: Silvio

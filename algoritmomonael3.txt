@@ -1,0 +1,60 @@
+Um carro sai da cidade de Boa Viagem e vai para cidade de Até-Que-Enfim, percorrendo
+uma estrada de 12 quilômetros. Nessa estrada, há um trecho em obras no quilômetro 3, uma curva perigosa no quilômetro 5 e uma escola no quilômetro 7. Qual a sequência de placas de indicação (avisos e quilometragens) desse trecho da estrada?
+
+Volte Sempre à Boa Viagem
+Cidade de Até-Que-Enfim à 12km
+1km
+2km
+Atenção! Obras na Estrada em 1km
+Atenção! Obras na Estrada em 500m
+Cuidado! Obras na Estrada
+3km
+4km
+Atenção! Curva Perigosa à 1km
+Atenção! Curva Perigosa à 500m
+Cuidado! Curva Perigosa
+5km
+6km
+Atenção! Escola à 1km
+Atenção! Escola à 500m
+Atenção! Escola à 200m
+Cuidado! Escola
+7km
+8km
+9km
+10km
+11km
+12km
+Bem vindo a cidade de Até-Que-Enfim
+
+Uma pessoa precisa trocar o pneu furado de seu veículo. Quais as ações necessárias para
+realizar essa tarefa e em qual sequência?
+
+Acionar o freio de mão
+Identificar o pneu que está furado
+Obter as ferramentas e o pneu sobressalente
+Afrouxar os parafusos da roda do pneu furado
+Posicionar o macaco
+Elevar o veículo
+Retirar os parafusos da roda do pneu furado
+Retirar a roda do pneu furado
+Posicionar a roda do pneu sobressalente
+Posicionar os parafusos na roda do pneu sobressalente
+Descer o veículo
+Apertar os parafusos na roda do pneu sobressalente
+Guardar as ferramentas e a roda com o pneu furado
+
+Faça um algoritmo em pseudolinguagem para troca de uma lâmpada queimada. Para essa
+troca, você tem à disposição uma escada e uma lâmpada nova e testada.
+
+
+início
+ |  posicionar a escada embaixo da lâmpada queimada
+ |  pegar a lâmpada nova
+ |  subir na escada
+ |  remover a lâmpada queimada
+ |  instalar a lâmpada nova
+ |  descer da escada
+ |  guardar a escada
+ |  descartar a lâmpada queimada
+fim
